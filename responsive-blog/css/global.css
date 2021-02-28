@@ -13,6 +13,20 @@
 }
 
 /* buttons */
-
+.btn {
+    padding: 1rem 1.25rem;
+    border:1px solid chocolate;
+    border-radius: 4px;
+    ;
+}
 
 /* linkler  default*/
+body a {
+    color:white;
+    text-decoration: none;
+}   
+
+.container {
+    max-width:1100px;
+
+}
