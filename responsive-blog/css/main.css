@@ -7,7 +7,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    color:white
+    color:white;
 }
 
 #home {
@@ -27,17 +27,38 @@ html {
     display: flex;
 
 }
-#home nav ul li a {
-    margin: 2rem;
-    border-radius: 4px;;
-
-
-}
-#home nav ul li a:hover {
-    background-color: white;    
-    color: chocolate;
-    padding: 0.75rem 1rem;
-}
 #home ul {
     list-style-type: none;
+}
+#ozgecmis {
+    color: black;
+    margin: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+#ozgecmis .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#ozgecmis .profil img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+.image .detey p{
+    margin-bottom: 2rem;  
+}
+
+#ozgecmis .cv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 0.5rem 0.5rem;
+}
+#ozgecmis .cv h2 {
+    margin-bottom: 1rem;
 }
