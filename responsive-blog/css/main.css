@@ -9,9 +9,7 @@ html {
     font-size: 1rem;
 }
 
-#home {
-    background-color: chocolate;
-    }
+
 #home nav {
     display: flex;
     flex-direction: row;
@@ -45,13 +43,14 @@ html {
     justify-content: center;
     align-items: center;
     
+    
 }
 #ozgecmis .profil img{
     width: 100%;
     height: auto;
     border-radius: 100%;
 }
-#ozgecmis .image .detey p{
+#ozgecmis .image .detey .item{
     margin-bottom: 2rem;  
 }
 
@@ -69,3 +68,55 @@ html {
 #ozgecmis .cv a {
     margin: 1rem 1rem;
 }
+#portfolyo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#portfolyo .projeler{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    max-width: 1100px;
+}
+#portfolyo .projeler .proje {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 1.25rem;
+    
+}
+#portfolyo .projeler .proje img {
+    width: 20rem;
+}
+.projeler .proje .image {
+    position: relative;
+    margin: 0.25rem;
+}
+.projeler .proje .image span {
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem;
+    top: 1rem;
+    left: 0.5rem;
+    z-index: 1;
+}
+.projeler .proje .detay {
+    position: relative;
+}
+
+.projeler .proje .detay a {
+    position: absolute;
+    top:11rem;
+    left: 7rem;
+    
+}
+
+.proje .detay p {
+    font-style: italic;
+    
+}
+

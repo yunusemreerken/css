@@ -11,6 +11,11 @@
 .heading-big {
     font-size: 2rem;
 }
+/* background */
+.bg-color {
+    background-color: chocolate;
+
+}
 /* font weight*/
 
 .heading-weight {
