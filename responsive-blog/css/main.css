@@ -7,7 +7,6 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    color:white;
 }
 
 #home {
@@ -30,6 +29,9 @@ html {
 #home ul {
     list-style-type: none;
 }
+
+/* özgeçmiş */
+
 #ozgecmis {
     color: black;
     margin: 3rem 3rem;
@@ -49,16 +51,21 @@ html {
     height: auto;
     border-radius: 100%;
 }
-.image .detey p{
+#ozgecmis .image .detey p{
     margin-bottom: 2rem;  
 }
 
 #ozgecmis .cv {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 1rem;
     padding: 0.5rem 0.5rem;
 }
 #ozgecmis .cv h2 {
     margin-bottom: 1rem;
+}
+#ozgecmis .cv a {
+    margin: 1rem 1rem;
 }
