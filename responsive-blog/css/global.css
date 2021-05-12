@@ -1,3 +1,9 @@
+/* text-color */
+.text-white {
+    color: white;
+}
+
+
 /* font-size */
  
 .heading-small {
@@ -5,7 +11,7 @@
 }
 
 .heading-medium {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .heading-big {
@@ -32,8 +38,8 @@
 }
 /* buttons */
 .btn {
-    margin: 1rem;
-    padding: 0.75rem 1rem;
+    margin: .7rem;
+    padding: 0.3rem .7rem;
     border-radius: 4px;;
     ;
 }

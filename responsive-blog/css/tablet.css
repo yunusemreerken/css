@@ -7,3 +7,31 @@
 /* #ozgecmis .cv a {
     max-width: 20%;
 } */
+/* home section start */
+.hamburger{ 
+    display: block;
+    border: 0;
+    background-color: transparent;
+}
+
+.nav-bar {
+    display: none;
+}
+
+
+#home nav {
+    height: 150px;
+    overflow-y: hidden;
+}
+
+#home .nav-bar li {
+    margin-top:1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+nav h1 {
+    margin-left: 1rem;
+}
+/* home section end */

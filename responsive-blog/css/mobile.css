@@ -1,0 +1,21 @@
+.hamburger{ 
+    margin-right: 5rem;
+    border: 0;
+    background-color: transparent;
+    margin-right: 5rem;;
+}
+.nav-bar {
+    display: none;
+}
+
+#home nav {
+    height: 150px;
+    overflow-y: hidden;
+}
+
+#home .nav-bar li {
+    margin-top:1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+
+}
